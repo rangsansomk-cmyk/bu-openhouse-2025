@@ -5,33 +5,33 @@ type Msg = { role: "user" | "assistant"; content: string };
 
 // User data for personalized responses
 const userData = {
-  name: "",
-  fullName: "",
-  role: "",
+  name: "Sea",
+  fullName: "Rangsan Somkane",
+  role: "-",
   skills: [
-    " ", " ", " ", " ", " ", 
+    "-", "-", "-", "-", "-", 
   ],
   education: [
     {
-      school: " ",
-      degree: " ",
-      period: " ",
-      description: " "
+      school: "-",
+      degree: "-",
+      period: "-",
+      description: "-"
     },
   ],
   location: "Thailand",
-  interests: [" ", " ", " ", " "],
+  interests: ["-", "-", "-", "-"],
   projects: [
-    " ",
-    " ",
-    " "
+    "-",
+    "-",
+    "-"
   ],
   contact: {
-    email: "your.email@example.com",
-    phone: "+66 XX XXX XXXX",
-    website: " ",
-    github: " ",
-    linkedin: " "
+    email: "rangsan.somk@bumail.net",
+    phone: "+66 95 819 9161",
+    website: "-",
+    github: "-",
+    linkedin: "-"
   }
 };
 
